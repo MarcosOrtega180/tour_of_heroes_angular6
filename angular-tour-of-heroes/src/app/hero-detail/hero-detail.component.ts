@@ -12,9 +12,10 @@ export class HeroDetailComponent implements OnInit {
     hero: Hero;
 
     constructor(
+        //private locationn: Location,
         private route: ActivatedRoute,
         private heroService: HeroService,
-        //private _location: Location
+
     ) {
     }
 
@@ -30,6 +31,6 @@ export class HeroDetailComponent implements OnInit {
     }
 
     goBack(): void {
-        //this.location.origin;
+        //this.locationn.back();
     }
 }
