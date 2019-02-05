@@ -32,6 +32,8 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
         HttpClientInMemoryWebApiModule.forRoot(
             InMemoryDataService, {dataEncapsulation: false}
         ),
+
+
         AppRoutingModul
     ],
     providers: [],
